@@ -4,10 +4,11 @@ body {
   color: #4e4e4e;
 }
   .testimonials {
-    background-image: url(assets/img/Navy Blue Geometric Technology LinkedIn Banner.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url('assets/img/Navy Blue Geometric Technology LinkedIn Banner.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 500px; /* Set an appropriate height for the div */
   }
 h1,
 h2,
