@@ -233,6 +233,8 @@ a:hover {
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
+  display: grid;
+  place-items: center;
 }
 
 .socials .ico-circle:hover {
@@ -494,7 +496,7 @@ a:hover {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -633,7 +635,7 @@ a:hover {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -780,7 +782,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .hero .hero-title {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -838,8 +840,21 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+@media (max-width: 500px) {
+  .break {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-mf {
+      padding-top: 0px;
+    }
+}
+
 .about-mf .box-shadow-full {
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 4rem;
 }
 
@@ -906,7 +921,7 @@ a:hover {
 
 .service-box .ico-circle i {
   line-height: 0;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .service-box .s-title {
@@ -967,6 +982,7 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  height: 220px;
 }
 
 .work-img img {
@@ -1263,6 +1279,31 @@ a:hover {
 
 }
 
+@media (min-width: 767px) {
+  .cols {
+      display: grid;
+      grid-column: 2;
+    }
+}
+
+.cols1{
+  display: grid;
+  grid-column-start: 1;
+  width: 100%;
+}
+
+.cols2{
+  display: grid;
+  grid-column-start: 2;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .cols2 {
+    margin-top: 40px;
+  }
+}
+
 .card-blog .card-category-box {
   position: absolute;
   text-align: center;
@@ -1316,7 +1357,7 @@ a:hover {
 
 }
 
-  
+
 /*--------------------------------------------------------------
 # Blog Single
 --------------------------------------------------------------*/

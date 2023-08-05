@@ -1474,16 +1474,6 @@ url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("wof
 .bi-projector::before { content: "\f6ac"; }
 .bi-qr-code-scan::before { content: "\f6ad"; }
 .bi-qr-code::before { content: "\f6ae"; }
-.bi-quora::before { content: "\f6af"; }
-.bi-quote::before { content: "\f6b0"; }
-.bi-robot::before { content: "\f6b1"; }
-.bi-send-check-fill::before { content: "\f6b2"; }
-.bi-send-check::before { content: "\f6b3"; }
-.bi-send-dash-fill::before { content: "\f6b4"; }
-.bi-send-dash::before { content: "\f6b5"; }
-.bi-send-exclamation-1::before { content: "\f6b6"; }
-.bi-send-exclamation-fill::before { content: "\f6b7"; }
-.bi-send-exclamation::before { content: "\f6b8"; }
 .bi-send-fill::before { content: "\f6b9"; }
 .bi-send-plus-fill::before { content: "\f6ba"; }
 .bi-send-plus::before { content: "\f6bb"; }
