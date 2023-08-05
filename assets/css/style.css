@@ -472,11 +472,13 @@ a:hover {
 }
 
 #header .logo {
-  font-size: 28px;
+  font-size: 35px;
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 1000;
   letter-spacing: 1px;
+  font-family: 'Parisienne', cursive;
+
 }
 
 #header .logo a {
@@ -776,8 +778,9 @@ a:hover {
 
 .hero .hero-title {
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 3rem;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -1285,6 +1288,12 @@ a:hover {
       grid-column: 2;
     }
 }
+@media (max-width: 767px) {
+  .cols {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
 
 .cols1{
   display: grid;
@@ -1352,12 +1361,18 @@ a:hover {
 }
 .ib{
   min-width:353px;
-  min-height:250px;
+  min-height:300px;
   overflow: hidden;
 
 }
 
+@media (max-width: 768px) {
 
+  .ib{
+    min-width:300px;
+    min-height: 250px;
+  }
+}
 /*--------------------------------------------------------------
 # Blog Single
 --------------------------------------------------------------*/
