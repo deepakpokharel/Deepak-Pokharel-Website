@@ -841,7 +841,7 @@ a:hover {
 # About
 --------------------------------------------------------------*/
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
   .break {
     display: none;
   }
