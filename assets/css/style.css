@@ -472,12 +472,12 @@ a:hover {
 }
 
 #header .logo {
-  font-size: 35px;
+  font-size: 28px;
   margin: 0;
   padding: 0;
-  font-weight: 1000;
+  font-weight: 400;
   letter-spacing: 1px;
-  font-family: 'Parisienne', cursive;
+ 
 
 }
 
@@ -493,6 +493,17 @@ a:hover {
   background: rgba(0, 0, 0, 0.9);
   padding: 12px 0;
 }
+@media (max-width: 991px) {
+  .p2 {
+    display: none;
+
+} }
+@media (max-width: 991px) {
+  .b1 {
+    margin-top: -55px;
+
+} }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -778,7 +789,7 @@ a:hover {
 
 .hero .hero-title {
   color: #fff;
-  font-weight: 400;
+  font-weight: 350;
   font-size: 3rem;
   font-family: 'Fjalla One', sans-serif;
 }
