@@ -493,6 +493,11 @@ a:hover {
   background: rgba(0, 0, 0, 0.9);
   padding: 12px 0;
 }
+@media (max-width: 991px) {
+  .p2 {
+    display: none;
+
+} }
 
 /*--------------------------------------------------------------
 # Navigation Menu
