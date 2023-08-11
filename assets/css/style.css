@@ -4,6 +4,18 @@ body {
   color: #4e4e4e;
 }
 
+body::-webkit-scrollbar{
+  width: 0.75rem;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #007aff;
+}
+
+body::-webkit-scrollbar-track{
+  background: white;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr; /* Two columns with 1:2 ratio */
